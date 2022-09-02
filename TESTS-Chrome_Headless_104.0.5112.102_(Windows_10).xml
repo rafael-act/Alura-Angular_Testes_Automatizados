@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 104.0.5112.102 (Windows 10)" package="" timestamp="2022-09-02T20:44:53" id="0" hostname="RAFAEL-PC" tests="8" errors="0" failures="0" time="0.171">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/104.0.5112.102 Safari/537.36"/>
+  </properties>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;  should throw when called with empty" time="0.069" classname="Chrome_Headless_104_0_5112_102_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;  should generate id when called with prefix" time="0.004" classname="Chrome_Headless_104_0_5112_102_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #getNumberOfGenerateUniqueIds&#xA;  should return the number of generated Ids when called" time="0.001" classname="Chrome_Headless_104_0_5112_102_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;  should not generate duplicate id" time="0.001" classname="Chrome_Headless_104_0_5112_102_(Windows_10).UniqueIdService"/>
+  <testcase name="LikeWidgetComponent Should auto generate ID during ngOninit when (@Input id) is not assigned" time="0.058" classname="Chrome_Headless_104_0_5112_102_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like&#xA;  should trigger emission when called" time="0.013" classname="Chrome_Headless_104_0_5112_102_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should create component" time="0.007" classname="Chrome_Headless_104_0_5112_102_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should NOT auto-generate ID during ngOnInit when (@Input id) is assigneds" time="0.018" classname="Chrome_Headless_104_0_5112_102_(Windows_10).LikeWidgetComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
